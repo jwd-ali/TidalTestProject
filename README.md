@@ -29,7 +29,7 @@ We have inherited the Operation class to TOperation to mauled the functionality 
 
 ### Light Mode iPhone ###
 <p align="center">
-<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.29.03%20PM.png" width="270" title=“Search Artist”>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.29.26%20PM.png" width="270" title=“Artist Albums”>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.30.15%20PM.png" width="270" title=“Album detail”></p>
+<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.29.03%20PM.png" width="275" title=“Search Artist”>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.29.26%20PM.png" width="275" title=“Artist Albums”>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.30.15%20PM.png" width="275" title=“Album detail”></p>
 
 ### Dark Mode iPad ###
   <p align="center">
