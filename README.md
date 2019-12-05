@@ -6,7 +6,7 @@ ___
 
 </br>
 
-<a href="https://www.linkedin.com/in/jawad-ali-3804ab24/"><img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/header/follow-us-on-linkedin-button_2385315.png" width="200" height="50"></a>
+<a href="https://www.linkedin.com/in/jawad-ali-3804ab24/"><img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/header/follow-us-on-linkedin-button_2385315.png"></a>
 
 </br></br>
 
