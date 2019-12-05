@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		611A311C23943A2200BEC26D /* AlbumsDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A311B23943A2100BEC26D /* AlbumsDataHandler.swift */; };
+		611A311F23943B6A00BEC26D /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A311E23943B6A00BEC26D /* AlbumsViewController.swift */; };
+		611A312123943B8500BEC26D /* AlbumsViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A312023943B8500BEC26D /* AlbumsViewModal.swift */; };
+		611A312323943B9C00BEC26D /* AlbumsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A312223943B9C00BEC26D /* AlbumsCoordinator.swift */; };
+		611A31272394401700BEC26D /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A31262394401700BEC26D /* AlbumCollectionViewCell.swift */; };
+		611A31292394402500BEC26D /* AlbumCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 611A31282394402500BEC26D /* AlbumCollectionViewCell.xib */; };
+		611A312B2394404F00BEC26D /* AlbumCollectionCellViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A312A2394404F00BEC26D /* AlbumCollectionCellViewModal.swift */; };
+		6129532F239230EE001EE27C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6129532D239230EE001EE27C /* Main.storyboard */; };
+		61295331239230F6001EE27C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61295330239230F6001EE27C /* Assets.xcassets */; };
+		61295334239230F6001EE27C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61295332239230F6001EE27C /* LaunchScreen.storyboard */; };
+		6129533F239230F7001EE27C /* TidalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129533E239230F7001EE27C /* TidalTests.swift */; };
+		6129534A239230F7001EE27C /* TidalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61295349239230F7001EE27C /* TidalUITests.swift */; };
+		6129535F23923362001EE27C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129535D23923362001EE27C /* AppDelegate.swift */; };
+		6129536023923362001EE27C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129535E23923362001EE27C /* SceneDelegate.swift */; };
+		6129536423923396001EE27C /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6129536323923396001EE27C /* Theme.xcassets */; };
+		61295370239239B3001EE27C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129536F239239B3001EE27C /* SearchViewController.swift */; };
+		6129537723925663001EE27C /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129537623925663001EE27C /* AppError.swift */; };
+		6129537A2392574D001EE27C /* StoryboardInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612953792392574D001EE27C /* StoryboardInitializable.swift */; };
+		6129537C2392577B001EE27C /* DequeueInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129537B2392577B001EE27C /* DequeueInitializable.swift */; };
+		6129538023929316001EE27C /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129537F23929316001EE27C /* ThemeManager.swift */; };
+		61295382239293D4001EE27C /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61295381239293D3001EE27C /* UIColor+Extensions.swift */; };
+		6129538423929974001EE27C /* SearchViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129538323929974001EE27C /* SearchViewModal.swift */; };
+		6129538623929997001EE27C /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129538523929997001EE27C /* SearchCoordinator.swift */; };
+		6129538823929B32001EE27C /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129538723929B32001EE27C /* BaseCoordinator.swift */; };
+		6129538A23929BD3001EE27C /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129538923929BD3001EE27C /* UIViewController+Extensions.swift */; };
+		6129538E23929D8B001EE27C /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129538D23929D8B001EE27C /* AppCoordinator.swift */; };
+		612953902392AB64001EE27C /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129538F2392AB64001EE27C /* Artist.swift */; };
+		612953922392BCD0001EE27C /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612953912392BCD0001EE27C /* Album.swift */; };
+		612953942392C14E001EE27C /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612953932392C14E001EE27C /* Track.swift */; };
+		612953962392E6F1001EE27C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612953952392E6F1001EE27C /* Router.swift */; };
+		612953982392E93A001EE27C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612953972392E93A001EE27C /* Request.swift */; };
+		61875FEC239358A500EEF422 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61875FEB239358A500EEF422 /* APIClient.swift */; };
+		61875FEE23938BB000EEF422 /* DeezerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61875FED23938BB000EEF422 /* DeezerService.swift */; };
+		61875FF023939B4B00EEF422 /* SearchArtistsDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61875FEF23939B4B00EEF422 /* SearchArtistsDataHandler.swift */; };
+		61875FF62393B27D00EEF422 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61875FF52393B27D00EEF422 /* ArtistTableViewCell.swift */; };
+		61875FFA2393B48700EEF422 /* ArtistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61875FF92393B48700EEF422 /* ArtistTableViewCell.xib */; };
+		61875FFC2393D8FA00EEF422 /* ArtistTableCellViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61875FFB2393D8FA00EEF422 /* ArtistTableCellViewModal.swift */; };
+		61875FFE2393DB9D00EEF422 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61875FFD2393DB9D00EEF422 /* UIImageView+Extension.swift */; };
+		618760002393E66700EEF422 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61875FFF2393E66700EEF422 /* UITableView+Extensions.swift */; };
+		61DA372823979A3300C8026D /* SearchApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DA372723979A3300C8026D /* SearchApiTests.swift */; };
+		61DA372A23979B7A00C8026D /* AlbumApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DA372923979B7A00C8026D /* AlbumApiTests.swift */; };
+		61DA372C2397AA3F00C8026D /* AlbumDetailApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DA372B2397AA3F00C8026D /* AlbumDetailApiTests.swift */; };
+		61DA372E2397C7B100C8026D /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DA372D2397C7B100C8026D /* MusicPlayer.swift */; };
+		61E8FEA82394CF3C00675771 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8FEA72394CF3C00675771 /* Constant.swift */; };
+		61E8FEAB2394CFD100675771 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8FEAA2394CFD100675771 /* AlbumDetailViewController.swift */; };
+		61E8FEAD2394CFE300675771 /* AlbumDetailViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8FEAC2394CFE300675771 /* AlbumDetailViewModal.swift */; };
+		61E8FEAF2394CFF700675771 /* AlbumDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8FEAE2394CFF700675771 /* AlbumDetailCoordinator.swift */; };
+		61FAEA1B239539D60041B071 /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FAEA1A239539D60041B071 /* TrackTableViewCell.swift */; };
+		61FAEA1D239539E40041B071 /* TrackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61FAEA1C239539E40041B071 /* TrackTableViewCell.xib */; };
+		61FAEA1F23953EB20041B071 /* TrackTableCellViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FAEA1E23953EB20041B071 /* TrackTableCellViewModal.swift */; };
+		61FAEA2323968FE40041B071 /* TOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FAEA2223968FE40041B071 /* TOperation.swift */; };
+		61FAEA25239690440041B071 /* ImageDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FAEA24239690440041B071 /* ImageDownloadService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6129533B239230F7001EE27C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6129531C239230ED001EE27C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61295323239230ED001EE27C;
+			remoteInfo = Tidal;
+		};
+		61295346239230F7001EE27C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6129531C239230ED001EE27C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61295323239230ED001EE27C;
+			remoteInfo = Tidal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		611A311B23943A2100BEC26D /* AlbumsDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsDataHandler.swift; sourceTree = "<group>"; };
+		611A311E23943B6A00BEC26D /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		611A312023943B8500BEC26D /* AlbumsViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewModal.swift; sourceTree = "<group>"; };
+		611A312223943B9C00BEC26D /* AlbumsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsCoordinator.swift; sourceTree = "<group>"; };
+		611A31262394401700BEC26D /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		611A31282394402500BEC26D /* AlbumCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumCollectionViewCell.xib; sourceTree = "<group>"; };
+		611A312A2394404F00BEC26D /* AlbumCollectionCellViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionCellViewModal.swift; sourceTree = "<group>"; };
+		61295324239230ED001EE27C /* Tidal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tidal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6129532E239230EE001EE27C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61295330239230F6001EE27C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61295333239230F6001EE27C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6129533A239230F6001EE27C /* TidalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TidalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6129533E239230F7001EE27C /* TidalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalTests.swift; sourceTree = "<group>"; };
+		61295340239230F7001EE27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61295345239230F7001EE27C /* TidalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TidalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61295349239230F7001EE27C /* TidalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalUITests.swift; sourceTree = "<group>"; };
+		6129534B239230F7001EE27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6129535D23923362001EE27C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6129535E23923362001EE27C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6129536323923396001EE27C /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
+		6129536923923646001EE27C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6129536F239239B3001EE27C /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		6129537623925663001EE27C /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		612953792392574D001EE27C /* StoryboardInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInitializable.swift; sourceTree = "<group>"; };
+		6129537B2392577B001EE27C /* DequeueInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeueInitializable.swift; sourceTree = "<group>"; };
+		6129537F23929316001EE27C /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		61295381239293D3001EE27C /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		6129538323929974001EE27C /* SearchViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModal.swift; sourceTree = "<group>"; };
+		6129538523929997001EE27C /* SearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
+		6129538723929B32001EE27C /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		6129538923929BD3001EE27C /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		6129538D23929D8B001EE27C /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		6129538F2392AB64001EE27C /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		612953912392BCD0001EE27C /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		612953932392C14E001EE27C /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		612953952392E6F1001EE27C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		612953972392E93A001EE27C /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		61875FEB239358A500EEF422 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		61875FED23938BB000EEF422 /* DeezerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerService.swift; sourceTree = "<group>"; };
+		61875FEF23939B4B00EEF422 /* SearchArtistsDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArtistsDataHandler.swift; sourceTree = "<group>"; };
+		61875FF52393B27D00EEF422 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		61875FF92393B48700EEF422 /* ArtistTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistTableViewCell.xib; sourceTree = "<group>"; };
+		61875FFB2393D8FA00EEF422 /* ArtistTableCellViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableCellViewModal.swift; sourceTree = "<group>"; };
+		61875FFD2393DB9D00EEF422 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		61875FFF2393E66700EEF422 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		61DA372723979A3300C8026D /* SearchApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchApiTests.swift; sourceTree = "<group>"; };
+		61DA372923979B7A00C8026D /* AlbumApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumApiTests.swift; sourceTree = "<group>"; };
+		61DA372B2397AA3F00C8026D /* AlbumDetailApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailApiTests.swift; sourceTree = "<group>"; };
+		61DA372D2397C7B100C8026D /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		61E8FEA72394CF3C00675771 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		61E8FEAA2394CFD100675771 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
+		61E8FEAC2394CFE300675771 /* AlbumDetailViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewModal.swift; sourceTree = "<group>"; };
+		61E8FEAE2394CFF700675771 /* AlbumDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailCoordinator.swift; sourceTree = "<group>"; };
+		61FAEA1A239539D60041B071 /* TrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
+		61FAEA1C239539E40041B071 /* TrackTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackTableViewCell.xib; sourceTree = "<group>"; };
+		61FAEA1E23953EB20041B071 /* TrackTableCellViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableCellViewModal.swift; sourceTree = "<group>"; };
+		61FAEA2223968FE40041B071 /* TOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOperation.swift; sourceTree = "<group>"; };
+		61FAEA24239690440041B071 /* ImageDownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61295321239230ED001EE27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61295337239230F6001EE27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61295342239230F7001EE27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		611A311D23943B4800BEC26D /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				611A312523943BAB00BEC26D /* ViewModal */,
+				611A312423943BA200BEC26D /* View */,
+				611A311E23943B6A00BEC26D /* AlbumsViewController.swift */,
+				611A312023943B8500BEC26D /* AlbumsViewModal.swift */,
+				611A312223943B9C00BEC26D /* AlbumsCoordinator.swift */,
+			);
+			path = Albums;
+			sourceTree = "<group>";
+		};
+		611A312423943BA200BEC26D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				611A31262394401700BEC26D /* AlbumCollectionViewCell.swift */,
+				611A31282394402500BEC26D /* AlbumCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		611A312523943BAB00BEC26D /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				611A312A2394404F00BEC26D /* AlbumCollectionCellViewModal.swift */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		6129531B239230ED001EE27C = {
+			isa = PBXGroup;
+			children = (
+				61295326239230ED001EE27C /* Tidal */,
+				6129533D239230F7001EE27C /* TidalTests */,
+				61295348239230F7001EE27C /* TidalUITests */,
+				61295325239230ED001EE27C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61295325239230ED001EE27C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61295324239230ED001EE27C /* Tidal.app */,
+				6129533A239230F6001EE27C /* TidalTests.xctest */,
+				61295345239230F7001EE27C /* TidalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61295326239230ED001EE27C /* Tidal */ = {
+			isa = PBXGroup;
+			children = (
+				6129537E239292FF001EE27C /* Utilities */,
+				6129537D2392589C001EE27C /* DataHandlers */,
+				6129537823925726001EE27C /* Library */,
+				6129537523925636001EE27C /* Modal */,
+				6129536D239238DC001EE27C /* Service */,
+				6129536B239238BA001EE27C /* Network */,
+				6129535723923173001EE27C /* Application */,
+				6129535823923193001EE27C /* Scene */,
+				61295359239231B0001EE27C /* Storyboard */,
+				6129535A239232DD001EE27C /* Resources */,
+			);
+			path = Tidal;
+			sourceTree = "<group>";
+		};
+		6129533D239230F7001EE27C /* TidalTests */ = {
+			isa = PBXGroup;
+			children = (
+				6129533E239230F7001EE27C /* TidalTests.swift */,
+				61DA372723979A3300C8026D /* SearchApiTests.swift */,
+				61DA372923979B7A00C8026D /* AlbumApiTests.swift */,
+				61DA372B2397AA3F00C8026D /* AlbumDetailApiTests.swift */,
+				61295340239230F7001EE27C /* Info.plist */,
+			);
+			path = TidalTests;
+			sourceTree = "<group>";
+		};
+		61295348239230F7001EE27C /* TidalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61295349239230F7001EE27C /* TidalUITests.swift */,
+				6129534B239230F7001EE27C /* Info.plist */,
+			);
+			path = TidalUITests;
+			sourceTree = "<group>";
+		};
+		6129535723923173001EE27C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6129535D23923362001EE27C /* AppDelegate.swift */,
+				6129535E23923362001EE27C /* SceneDelegate.swift */,
+				61E8FEA72394CF3C00675771 /* Constant.swift */,
+				6129538D23929D8B001EE27C /* AppCoordinator.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6129535823923193001EE27C /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				61E8FEA92394CFB400675771 /* AlbumDetail */,
+				611A311D23943B4800BEC26D /* Albums */,
+				61875FF12393B1E600EEF422 /* SearchArtist */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		61295359239231B0001EE27C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				61295332239230F6001EE27C /* LaunchScreen.storyboard */,
+				6129532D239230EE001EE27C /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		6129535A239232DD001EE27C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6129536923923646001EE27C /* Info.plist */,
+				61295330239230F6001EE27C /* Assets.xcassets */,
+				6129536323923396001EE27C /* Theme.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6129536B239238BA001EE27C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6129536C239238C4001EE27C /* Router */,
+				61875FEB239358A500EEF422 /* APIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6129536C239238C4001EE27C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				612953952392E6F1001EE27C /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		6129536D239238DC001EE27C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6129536E239238E6001EE27C /* Request */,
+				61875FED23938BB000EEF422 /* DeezerService.swift */,
+				61FAEA24239690440041B071 /* ImageDownloadService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6129536E239238E6001EE27C /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				612953972392E93A001EE27C /* Request.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		6129537523925636001EE27C /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				6129537623925663001EE27C /* AppError.swift */,
+				6129538F2392AB64001EE27C /* Artist.swift */,
+				612953912392BCD0001EE27C /* Album.swift */,
+				612953932392C14E001EE27C /* Track.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		6129537823925726001EE27C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				612953792392574D001EE27C /* StoryboardInitializable.swift */,
+				6129537B2392577B001EE27C /* DequeueInitializable.swift */,
+				6129538723929B32001EE27C /* BaseCoordinator.swift */,
+				61DA372D2397C7B100C8026D /* MusicPlayer.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		6129537D2392589C001EE27C /* DataHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				61875FEF23939B4B00EEF422 /* SearchArtistsDataHandler.swift */,
+				611A311B23943A2100BEC26D /* AlbumsDataHandler.swift */,
+			);
+			path = DataHandlers;
+			sourceTree = "<group>";
+		};
+		6129537E239292FF001EE27C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6129537F23929316001EE27C /* ThemeManager.swift */,
+				61295381239293D3001EE27C /* UIColor+Extensions.swift */,
+				61875FFD2393DB9D00EEF422 /* UIImageView+Extension.swift */,
+				6129538923929BD3001EE27C /* UIViewController+Extensions.swift */,
+				61875FFF2393E66700EEF422 /* UITableView+Extensions.swift */,
+				61FAEA2223968FE40041B071 /* TOperation.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		61875FF12393B1E600EEF422 /* SearchArtist */ = {
+			isa = PBXGroup;
+			children = (
+				61875FF42393B23100EEF422 /* View Modals */,
+				61875FF32393B22800EEF422 /* Views */,
+				6129536F239239B3001EE27C /* SearchViewController.swift */,
+				6129538323929974001EE27C /* SearchViewModal.swift */,
+				6129538523929997001EE27C /* SearchCoordinator.swift */,
+			);
+			path = SearchArtist;
+			sourceTree = "<group>";
+		};
+		61875FF32393B22800EEF422 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61875FF52393B27D00EEF422 /* ArtistTableViewCell.swift */,
+				61875FF92393B48700EEF422 /* ArtistTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		61875FF42393B23100EEF422 /* View Modals */ = {
+			isa = PBXGroup;
+			children = (
+				61875FFB2393D8FA00EEF422 /* ArtistTableCellViewModal.swift */,
+			);
+			path = "View Modals";
+			sourceTree = "<group>";
+		};
+		61E8FEA92394CFB400675771 /* AlbumDetail */ = {
+			isa = PBXGroup;
+			children = (
+				61E8FEB12394D92E00675771 /* ViewModal */,
+				61E8FEB02394D92300675771 /* View */,
+				61E8FEAA2394CFD100675771 /* AlbumDetailViewController.swift */,
+				61E8FEAC2394CFE300675771 /* AlbumDetailViewModal.swift */,
+				61E8FEAE2394CFF700675771 /* AlbumDetailCoordinator.swift */,
+			);
+			path = AlbumDetail;
+			sourceTree = "<group>";
+		};
+		61E8FEB02394D92300675771 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61FAEA1A239539D60041B071 /* TrackTableViewCell.swift */,
+				61FAEA1C239539E40041B071 /* TrackTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61E8FEB12394D92E00675771 /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				61FAEA1E23953EB20041B071 /* TrackTableCellViewModal.swift */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61295323239230ED001EE27C /* Tidal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6129534E239230F7001EE27C /* Build configuration list for PBXNativeTarget "Tidal" */;
+			buildPhases = (
+				61295320239230ED001EE27C /* Sources */,
+				61295321239230ED001EE27C /* Frameworks */,
+				61295322239230ED001EE27C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tidal;
+			productName = Tidal;
+			productReference = 61295324239230ED001EE27C /* Tidal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61295339239230F6001EE27C /* TidalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61295351239230F7001EE27C /* Build configuration list for PBXNativeTarget "TidalTests" */;
+			buildPhases = (
+				61295336239230F6001EE27C /* Sources */,
+				61295337239230F6001EE27C /* Frameworks */,
+				61295338239230F6001EE27C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6129533C239230F7001EE27C /* PBXTargetDependency */,
+			);
+			name = TidalTests;
+			productName = TidalTests;
+			productReference = 6129533A239230F6001EE27C /* TidalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61295344239230F7001EE27C /* TidalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61295354239230F7001EE27C /* Build configuration list for PBXNativeTarget "TidalUITests" */;
+			buildPhases = (
+				61295341239230F7001EE27C /* Sources */,
+				61295342239230F7001EE27C /* Frameworks */,
+				61295343239230F7001EE27C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61295347239230F7001EE27C /* PBXTargetDependency */,
+			);
+			name = TidalUITests;
+			productName = TidalUITests;
+			productReference = 61295345239230F7001EE27C /* TidalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6129531C239230ED001EE27C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Jawad;
+				TargetAttributes = {
+					61295323239230ED001EE27C = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					61295339239230F6001EE27C = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 61295323239230ED001EE27C;
+					};
+					61295344239230F7001EE27C = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 61295323239230ED001EE27C;
+					};
+				};
+			};
+			buildConfigurationList = 6129531F239230ED001EE27C /* Build configuration list for PBXProject "Tidal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6129531B239230ED001EE27C;
+			productRefGroup = 61295325239230ED001EE27C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61295323239230ED001EE27C /* Tidal */,
+				61295339239230F6001EE27C /* TidalTests */,
+				61295344239230F7001EE27C /* TidalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61295322239230ED001EE27C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61875FFA2393B48700EEF422 /* ArtistTableViewCell.xib in Resources */,
+				61FAEA1D239539E40041B071 /* TrackTableViewCell.xib in Resources */,
+				61295334239230F6001EE27C /* LaunchScreen.storyboard in Resources */,
+				6129536423923396001EE27C /* Theme.xcassets in Resources */,
+				61295331239230F6001EE27C /* Assets.xcassets in Resources */,
+				611A31292394402500BEC26D /* AlbumCollectionViewCell.xib in Resources */,
+				6129532F239230EE001EE27C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61295338239230F6001EE27C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61295343239230F7001EE27C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61295320239230ED001EE27C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611A311F23943B6A00BEC26D /* AlbumsViewController.swift in Sources */,
+				61295370239239B3001EE27C /* SearchViewController.swift in Sources */,
+				6129535F23923362001EE27C /* AppDelegate.swift in Sources */,
+				61FAEA1B239539D60041B071 /* TrackTableViewCell.swift in Sources */,
+				6129538A23929BD3001EE27C /* UIViewController+Extensions.swift in Sources */,
+				61875FEC239358A500EEF422 /* APIClient.swift in Sources */,
+				612953902392AB64001EE27C /* Artist.swift in Sources */,
+				6129538623929997001EE27C /* SearchCoordinator.swift in Sources */,
+				6129538423929974001EE27C /* SearchViewModal.swift in Sources */,
+				61E8FEA82394CF3C00675771 /* Constant.swift in Sources */,
+				611A31272394401700BEC26D /* AlbumCollectionViewCell.swift in Sources */,
+				611A312323943B9C00BEC26D /* AlbumsCoordinator.swift in Sources */,
+				611A312B2394404F00BEC26D /* AlbumCollectionCellViewModal.swift in Sources */,
+				6129537A2392574D001EE27C /* StoryboardInitializable.swift in Sources */,
+				612953922392BCD0001EE27C /* Album.swift in Sources */,
+				6129538E23929D8B001EE27C /* AppCoordinator.swift in Sources */,
+				61E8FEAF2394CFF700675771 /* AlbumDetailCoordinator.swift in Sources */,
+				61FAEA25239690440041B071 /* ImageDownloadService.swift in Sources */,
+				61DA372E2397C7B100C8026D /* MusicPlayer.swift in Sources */,
+				61E8FEAB2394CFD100675771 /* AlbumDetailViewController.swift in Sources */,
+				61875FFE2393DB9D00EEF422 /* UIImageView+Extension.swift in Sources */,
+				611A312123943B8500BEC26D /* AlbumsViewModal.swift in Sources */,
+				611A311C23943A2200BEC26D /* AlbumsDataHandler.swift in Sources */,
+				61875FF62393B27D00EEF422 /* ArtistTableViewCell.swift in Sources */,
+				6129538023929316001EE27C /* ThemeManager.swift in Sources */,
+				612953962392E6F1001EE27C /* Router.swift in Sources */,
+				6129537723925663001EE27C /* AppError.swift in Sources */,
+				61E8FEAD2394CFE300675771 /* AlbumDetailViewModal.swift in Sources */,
+				612953982392E93A001EE27C /* Request.swift in Sources */,
+				61FAEA2323968FE40041B071 /* TOperation.swift in Sources */,
+				6129538823929B32001EE27C /* BaseCoordinator.swift in Sources */,
+				61875FFC2393D8FA00EEF422 /* ArtistTableCellViewModal.swift in Sources */,
+				61FAEA1F23953EB20041B071 /* TrackTableCellViewModal.swift in Sources */,
+				612953942392C14E001EE27C /* Track.swift in Sources */,
+				6129537C2392577B001EE27C /* DequeueInitializable.swift in Sources */,
+				61875FEE23938BB000EEF422 /* DeezerService.swift in Sources */,
+				618760002393E66700EEF422 /* UITableView+Extensions.swift in Sources */,
+				61875FF023939B4B00EEF422 /* SearchArtistsDataHandler.swift in Sources */,
+				61295382239293D4001EE27C /* UIColor+Extensions.swift in Sources */,
+				6129536023923362001EE27C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61295336239230F6001EE27C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61DA372A23979B7A00C8026D /* AlbumApiTests.swift in Sources */,
+				61DA372C2397AA3F00C8026D /* AlbumDetailApiTests.swift in Sources */,
+				61DA372823979A3300C8026D /* SearchApiTests.swift in Sources */,
+				6129533F239230F7001EE27C /* TidalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61295341239230F7001EE27C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6129534A239230F7001EE27C /* TidalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6129533C239230F7001EE27C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61295323239230ED001EE27C /* Tidal */;
+			targetProxy = 6129533B239230F7001EE27C /* PBXContainerItemProxy */;
+		};
+		61295347239230F7001EE27C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61295323239230ED001EE27C /* Tidal */;
+			targetProxy = 61295346239230F7001EE27C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6129532D239230EE001EE27C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6129532E239230EE001EE27C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61295332239230F6001EE27C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61295333239230F6001EE27C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6129534C239230F7001EE27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6129534D239230F7001EE27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6129534F239230F7001EE27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5DBAJ72E6;
+				INFOPLIST_FILE = Tidal/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jawad.Tidal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61295350239230F7001EE27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5DBAJ72E6;
+				INFOPLIST_FILE = Tidal/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jawad.Tidal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61295352239230F7001EE27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5DBAJ72E6;
+				INFOPLIST_FILE = TidalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jawad.TidalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tidal.app/Tidal";
+			};
+			name = Debug;
+		};
+		61295353239230F7001EE27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5DBAJ72E6;
+				INFOPLIST_FILE = TidalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jawad.TidalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tidal.app/Tidal";
+			};
+			name = Release;
+		};
+		61295355239230F7001EE27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5DBAJ72E6;
+				INFOPLIST_FILE = TidalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jawad.TidalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tidal;
+			};
+			name = Debug;
+		};
+		61295356239230F7001EE27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5DBAJ72E6;
+				INFOPLIST_FILE = TidalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jawad.TidalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tidal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6129531F239230ED001EE27C /* Build configuration list for PBXProject "Tidal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6129534C239230F7001EE27C /* Debug */,
+				6129534D239230F7001EE27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6129534E239230F7001EE27C /* Build configuration list for PBXNativeTarget "Tidal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6129534F239230F7001EE27C /* Debug */,
+				61295350239230F7001EE27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61295351239230F7001EE27C /* Build configuration list for PBXNativeTarget "TidalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61295352239230F7001EE27C /* Debug */,
+				61295353239230F7001EE27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61295354239230F7001EE27C /* Build configuration list for PBXNativeTarget "TidalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61295355239230F7001EE27C /* Debug */,
+				61295356239230F7001EE27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6129531C239230ED001EE27C /* Project object */;
+}

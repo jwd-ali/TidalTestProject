@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F433B746-90D2-4464-8978-B97FFF164D52"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1CDC990-C9F8-47F4-9108-B757825788D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Scene/SearchViewModal.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "handleAds(artists:resetArray:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "879DA17A-35FD-47B9-A962-6D13B2673637"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Scene/SearchArtist/SearchViewModal.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "handleAds(artists:resetArray:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA2976E0-B04C-47DF-B579-F337A111E94A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Scene/SearchArtist/SearchCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "reloadViews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC683D20-AF2F-480B-89F7-D88101C076E7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Scene/SearchArtist/SearchViewModal.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "loadMore(indexPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95D8E4BD-79CB-43C3-86AC-221CA3639AF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/DataHandlers/SearchArtistsDataHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "searchArtists(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D72FE1B1-3F88-4A67-83B6-A96026783743"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/DataHandlers/SearchArtistsDataHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "nextFeedsPage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6D0DBE7-0D52-4F0B-87E0-7C7D279BD668"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Utilities/UITableView+Extensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "addLoadingFooter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "402B3442-03AE-4782-A45A-CA7BE5106B55"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Utilities/UITableView+Extensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "addLoadingFooter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D5C74E0-18D1-4528-ABA1-AB21CA8688CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Scene/Albums/View/AlbumCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "prepareForReuse()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "E9600E57-0CE5-412E-986F-F49626853AF5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A30BA6A6-4BED-4324-A567-1E704F5A0116"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Scene/Albums/AlbumsViewModal.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "handleAds(albums:resetArray:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50D502B8-687A-44B0-8B8D-E49E0837EDAC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/DataHandlers/AlbumsDataHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "searchAlbums(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74E4FCF5-0753-4A50-8660-BD4E69EF6C86"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Service/DeezerService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchAlbum(for:pageSize:artistID:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "631B168F-29FA-4C8E-BD88-5D1C72B23688"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Service/DeezerService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "fetchAlbum(for:pageSize:artistID:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "631B168F-29FA-4C8E-BD88-5D1C72B23688 - 6bc2ae7e7ab416a1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Tidal.AlbumFeed, Tidal.AppError&gt;) -&gt; () in Tidal.DeezerService.fetchAlbum(for: Swift.Int, pageSize: Swift.Int, artistID: Swift.Int, completion: (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Tidal.Album&gt;&gt;, Tidal.AppError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Tidal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jawad/Desktop/Tidal/Tidal/Service/DeezerService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  uuid = "631B168F-29FA-4C8E-BD88-5D1C72B23688 - 6bc2ae7e7ab416a1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Tidal.AlbumFeed, Tidal.AppError&gt;) -&gt; () in Tidal.DeezerService.fetchAlbum(for: Swift.Int, pageSize: Swift.Int, artistID: Swift.Int, completion: (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Tidal.Album&gt;&gt;, Tidal.AppError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Tidal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jawad/Desktop/Tidal/Tidal/Service/DeezerService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "631B168F-29FA-4C8E-BD88-5D1C72B23688 - 6bc2ae7e7ab416a1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Tidal.AlbumFeed, Tidal.AppError&gt;) -&gt; () in Tidal.DeezerService.fetchAlbum(for: Swift.Int, pageSize: Swift.Int, artistID: Swift.Int, completion: (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Tidal.Album&gt;&gt;, Tidal.AppError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Tidal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jawad/Desktop/Tidal/Tidal/Service/DeezerService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "376">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "391DC819-0DBA-4263-9423-B471F2FCF2F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Network/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "performRequest(router:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "391DC819-0DBA-4263-9423-B471F2FCF2F5 - 23fabf0d0d57793a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Tidal.AppError&gt;) -&gt; () in Tidal.APIClient.performRequest&lt;A where A: Swift.Decodable, A: Swift.Encodable&gt;(router: Tidal.URLRequestConvertible, completionHandler: (Swift.Result&lt;A, Tidal.AppError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Tidal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jawad/Desktop/Tidal/Tidal/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "392">
+               </Location>
+               <Location
+                  uuid = "391DC819-0DBA-4263-9423-B471F2FCF2F5 - 23fabf0d0d57793a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Tidal.AppError&gt;) -&gt; () in Tidal.APIClient.performRequest&lt;A where A: Swift.Decodable, A: Swift.Encodable&gt;(router: Tidal.URLRequestConvertible, completionHandler: (Swift.Result&lt;A, Tidal.AppError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Tidal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jawad/Desktop/Tidal/Tidal/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "448">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D31E19E3-2F13-41B2-A0CB-72319EC2E748"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Scene/AlbumDetail/AlbumDetailViewModal.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getArtistName()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D31E19E3-2F13-41B2-A0CB-72319EC2E748 - 797f9dca72043fb7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Tidal.Album, Tidal.AppError&gt;) -&gt; () in Tidal.AlbumDetailViewModalImp.getAlbumDetail() -&gt; ()"
+                  moduleName = "Tidal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jawad/Desktop/Tidal/Tidal/Scene/AlbumDetail/AlbumDetailViewModal.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "313">
+               </Location>
+               <Location
+                  uuid = "D31E19E3-2F13-41B2-A0CB-72319EC2E748 - 797f9dca72043fb7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Tidal.Album, Tidal.AppError&gt;) -&gt; () in Tidal.AlbumDetailViewModalImp.getAlbumDetail() -&gt; ()"
+                  moduleName = "Tidal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jawad/Desktop/Tidal/Tidal/Scene/AlbumDetail/AlbumDetailViewModal.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "353">
+               </Location>
+               <Location
+                  uuid = "D31E19E3-2F13-41B2-A0CB-72319EC2E748 - 797f9dca72043fb7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Tidal.Album, Tidal.AppError&gt;) -&gt; () in Tidal.AlbumDetailViewModalImp.getAlbumDetail() -&gt; ()"
+                  moduleName = "Tidal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jawad/Desktop/Tidal/Tidal/Scene/AlbumDetail/AlbumDetailViewModal.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "575">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33977840-2F71-485C-A337-B9507C522187"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Service/DeezerService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "fetchAlbumDetail(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F96353E5-B227-43BF-B70F-F2DDD6931F42"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Scene/Albums/AlbumsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "showProgress()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CA5ECDA-CE13-4C71-8648-5F2E67F3A3C7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Scene/Albums/AlbumsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "endRefresh()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F47425A-4A37-4BE6-BD7B-65FA88EA27DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Scene/Albums/AlbumsCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "showProgress()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEC465F4-780A-4149-8B35-D77BEADFD8F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Scene/SearchArtist/Views/ArtistTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "configure()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A4880CD-BF33-488D-91B0-9AC028E8EAD2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tidal/Scene/SearchArtist/SearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "tableView(_:willDisplay:forRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBE20785-2330-4D28-8469-33F8F9AEF6C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TidalTests/AlbumDetailApiTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "testArtistAlbumsApi()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
