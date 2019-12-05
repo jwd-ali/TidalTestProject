@@ -1,3 +1,4 @@
+
 Tidal Test Project  lets the user autocomplete search with pagination for artists, select an artist to see that artist's albums, and finally select an album to see its tracks and album info. User can play a preview of any track stream
 
 This test project is written in easily-extendable architecture (MVVM-Coordinators) and is built with Xcode and written entirely in Latest Swift 5 and Latest iOS 13 It utilises Auto Layout and size classes for UI design. Uses nibs for cells to increase reusability 
