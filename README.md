@@ -29,7 +29,7 @@ We have inherited the Operation class to TOperation to mauled the functionality 
 
 ### Light Mode iPhone ###
 <p align="center">
-<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.29.03%20PM.png" width="230" title=“Search Artist”>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.29.26%20PM.png" width="230" title=“Artist Albums”>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.30.15%20PM.png" width="230" title=“Album detail”></p>
+<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.29.03%20PM.png" width="250" title=“Search Artist”>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.29.26%20PM.png" width="250" title=“Artist Albums”>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.30.15%20PM.png" width="250" title=“Album detail”></p>
 
 ### Dark Mode iPad ###
   <p align="center">
@@ -41,7 +41,8 @@ We have inherited the Operation class to TOperation to mauled the functionality 
 </p>
 
 ### Landscape Support ###
-<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/landscape/Screenshot%202019-12-05%20at%2012.27.43%20AM.png" width="800" title=“Search Artist”>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <p align="center">
+<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/landscape/Screenshot%202019-12-05%20at%2012.27.43%20AM.png" width="800" title=“Landscape”></p>
 
 ### Thank You ###
 # [Jawad Ali](https://github.com/jwd-ali/IOS-Portfolio)
