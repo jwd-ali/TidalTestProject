@@ -1,5 +1,16 @@
+<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/header/header.png">
+<p><h1 align="left">TidalTestProject</h1></p>
+<p><h4>Stream your favorite songs Test Project in swift 5.1</h4></p>
 
-Tidal Test Project  lets the user autocomplete search with pagination for artists, select an artist to see that artist's albums, and finally select an album to see its tracks and album info. User can play a preview of any track stream
+___
+
+</br>
+
+<a href="https://www.linkedin.com/in/jawad-ali-3804ab24/"><img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/header/follow-us-on-linkedin-button_2385315.png" width="200" height="50"></a>
+
+</br></br>
+
+Tidal Test Project lets the user autocomplete search with pagination for artists, select an artist to see that artist's albums, and finally select an album to see its tracks and album info. User can play a preview of any track stream
 
 This test project is written in easily-extendable architecture (MVVM-Coordinators) and is built with Xcode and written entirely in Latest Swift 5 and Latest iOS 13 It utilises Auto Layout and size classes for UI design. Uses nibs for cells to increase reusability 
 
