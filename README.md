@@ -8,6 +8,7 @@ This test project is written in easily-extendable architecture (MVVM-Coordinator
 * Xcode 11.2.1
 * Swift(5.1) Latest
 * Storyboard and Nibs for custom cells
+* SF Symbols
 * Support all Orientations
 * Support iPhone and iPad using size classes
 * Support dark Mode and light mode
