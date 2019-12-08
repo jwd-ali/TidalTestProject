@@ -37,12 +37,12 @@ Creating image download Service. Prioritise the downloading based on the visibil
 ImageDownloadService class will create a singleton instance and have NSCache instance to cache the images that have been downloaded.
 We have inherited the Operation class to TOperation to mauled the functionality according to our need. I think the properties of the operation subclass are pretty clear in terms of functionality. We are monitoring operations changes of state by using KVO.
 
-### 🎧 Dark Mode iPhone ###
+### 🎧  Dark Mode iPhone ###
 <p align="center">
 <img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20darkMode/Screenshot%202019-12-04%20at%2011.27.06%20PM.png" width="200" title="
 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20darkMode/Screenshot%202019-12-04%20at%2011.27.33%20PM.png" width="200" title="Artist Albums">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20darkMode/Screenshot%202019-12-04%20at%2011.28.18%20PM.png" width="200" title="Album detail">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20darkMode/Screenshot%202019-12-05%20at%2012.22.30%20AM.png" width="200" title=“Music Playing”></p>
 
-### 🎧 Light Mode iPhone ###
+### 🎧  Light Mode iPhone ###
 <p align="center">
 <img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.29.03%20PM.png" width="270" title="Search Artist">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.29.26%20PM.png" width="270" title="Artist Albums">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/iPhone%20LightMode/Screenshot%202019-12-04%20at%2011.30.15%20PM.png" width="270" title="Album detail"></p>
 
