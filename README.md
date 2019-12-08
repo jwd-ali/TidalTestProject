@@ -1,5 +1,5 @@
 <img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/header/header.png">
-<p><h1 align="left">TidalTestProject</h1></p>
+<p><h1 align="left"> 🎧 TidalTestProject</h1></p>
 <p><h4>Stream your favorite songs Test Project in swift 5.1</h4></p>
 
 ___
