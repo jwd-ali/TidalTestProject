@@ -14,7 +14,7 @@ struct ProductionServer {
 public protocol URLRequestConvertible {
     func urlRequest()  -> URLRequest?
 }
-enum Router<T>: URLRequestConvertible where T: Codable {
+enum Router<T>: URLRequestConvertible {
     
     case getAlbums(T)
     case getArtist(T)

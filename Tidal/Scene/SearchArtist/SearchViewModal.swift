@@ -20,7 +20,7 @@ protocol SearchViewModal:class {
 class SearchViewModalImp : SearchViewModal  {
     
     private var coordinator : SearchCoordinator
-    private lazy var searchArtistDataHandler = {return SearchArtistsDataHandler()}()
+    private lazy var searchArtistDataHandler = {return SearchArtistsDataHandler(service: DeezerServiceImp())}()
     private lazy var viewModels: [ArtistTableCellViewModal] = {return []}()
     private var searchString : String?
     init(coordinator:SearchCoordinator) {

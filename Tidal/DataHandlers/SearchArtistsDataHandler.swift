@@ -9,7 +9,8 @@
 import Foundation
 typealias SearchArtistsDataHandlerBlock = (_ artists: [Artist],_ resetArray: Bool,_ error: AppError?) -> Void
 class SearchArtistsDataHandler: NSObject {
-    private let service : DeezerService = DeezerServiceImp()
+    private let service : DeezerService
+    
     
     private var pageNumber = 0
     private var pageSize = 20
@@ -17,6 +18,10 @@ class SearchArtistsDataHandler: NSObject {
     private var isFeedLoading = false
     private var isFeedNextPageAvailable = true
     
+     init(service:DeezerService) {
+        self.service = service
+        super.init()
+    }
     
     func resetFeedsPaging() {
          self.isFeedNextPageAvailable = true

@@ -42,7 +42,7 @@ final class ImageDownloadService {
                 if indexPath == nil {
                     operation.queuePriority = .high
                 }
-                operation.downloadHandler = { (image, url, indexPath, error) in
+                operation.downloadHandler = {[unowned self] (image, url, indexPath, error) in
                     if let newImage = image {
                         self.imageCache.setObject(newImage, forKey: url.absoluteString as NSString)
                     }
