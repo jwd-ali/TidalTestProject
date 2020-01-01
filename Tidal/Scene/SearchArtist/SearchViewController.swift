@@ -73,11 +73,12 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
     }
+    
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         if let cell = cell as? ArtistTableViewCell , let imageUrl = cell.viewModel.artistImage(){
-            ImageDownloadService.shared.downloadImage(imageUrl,indexPath:indexPath) {[weak tableView] (image,index,error)  in
+            ImageDownloadService.shared.downloadImage(imageUrl,indexPath:indexPath) { (image,index,error)  in
                 DispatchQueue.main.async {
-                    if let getIndexPath = index,let getImage = image, let getCell = tableView?.cellForRow(at: getIndexPath) as? ArtistTableViewCell {
+                    if let getIndexPath = index,let getImage = image, let getCell = tableView.cellForRow(at: getIndexPath) as? ArtistTableViewCell {
                         getCell.setArtistImage(getImage)
                     }
                 }
